@@ -1,0 +1,10 @@
+.wrapper{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.slide{
+    width: calc(calc(100% - 200px) / 10);
+    height: 100px;
+}

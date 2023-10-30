@@ -1,5 +1,22 @@
 .main{
+    position: relative;
     background-color: #1e1b1b;
-    width: 100vw;
-    height: 100vh;
+    scrollbar-width: none;
+    overflow: hidden;
+
+    @media screen and (min-width: 1440px) {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    ::-webkit-scrollbar{
+        width: none;
+    }
+}
+
+.background-image{
+    position: absolute;
+    inset: 0;
+    object-fit: contain;
+    filter: brightness(.4);
 }
