@@ -1,0 +1,123 @@
+[
+    {
+        "name": "How To Learn",
+        "fullimage": "/fullimages/howtolearn.webp",
+        "preview": "/previews/howtolearn.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS"],
+        "links": {
+            "website": "https://kanae367.github.io/how-to-learn/",
+            "github": "https://github.com/kanae367/how-to-learn"
+        }
+    },
+    {
+        "name": "Russian Travel",
+        "fullimage": "/fullimages/russiantravel.webp",
+        "preview": "/previews/russiantravel.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS"],
+        "links": {
+            "website": "https://kanae367.github.io/russian-travel/",
+            "github": "https://github.com/kanae367/russian-travel"
+        }
+    },
+    {
+        "name": "Cursator",
+        "fullimage": "/fullimages/cursator.webp",
+        "preview": "/previews/cursator.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS"],
+        "links": {
+            "website": "https://kanae367.github.io/cursator/",
+            "github": "https://github.com/kanae367/cursator"
+        }
+    },
+    {
+        "name": "Nimbly",
+        "fullimage": "/fullimages/nimbly.webp",
+        "preview": "/previews/nimbly.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS"],
+        "links": {
+            "website": "https://kanae367.github.io/nimbly/",
+            "github": "https://github.com/kanae367/nimbly"
+        }
+    },
+    {
+        "name": "Landing Page",
+        "fullimage": "/fullimages/landingpage.webp",
+        "preview": "/previews/landingpage.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS", "JS"],
+        "links": {
+            "website": "https://kanae367.github.io/landing-page-template/",
+            "github": "https://github.com/kanae367/landing-page-template"
+        }
+    },
+    {
+        "name": "Mesto",
+        "fullimage": "/fullimages/mesto.webp",
+        "preview": "/previews/mesto.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS", "JS"],
+        "links": {
+            "website": "https://kanae367.github.io/mesto/",
+            "github": "https://github.com/kanae367/mesto"
+        }
+    },
+    {
+        "name": "Space Tourism",
+        "fullimage": "/fullimages/spacetourism.webp",
+        "preview": "/previews/spacetourism.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS", "JS", "JQUERY", "SCSS"],
+        "links": {
+            "website": "https://kanae367.github.io/space-tourism/",
+            "github": "https://github.com/kanae367/space-tourism"
+        }
+    },
+    {
+        "name": "Design Agency",
+        "fullimage": "/fullimages/designagency.webp",
+        "preview": "/previews/designagency.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS", "JS", "SCSS"],
+        "links": {
+            "website": "https://kanae367.github.io/design-agency-template/",
+            "github": "https://github.com/kanae367/design-agency-template"
+        }
+    },
+    {
+        "name": "Rock Paper Scissors",
+        "fullimage": "/fullimages/rockpaperscissors.webp",
+        "preview": "/previews/rockpaperscissors.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS", "JS"],
+        "links": {
+            "website": "https://kanae367.github.io/https://github.com/kanae367/rock-paper-scissors-lizard-spock",
+            "github": "https://github.com/kanae367/https://github.com/kanae367/rock-paper-scissors-lizard-spock"
+        }
+    },
+    {
+        "name": "Todo App",
+        "fullimage": "/fullimages/todoapp.webp",
+        "preview": "/previews/todoapp.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS", "JS", "REACT", "SCSS", "FIREBASE"],
+        "links": {
+            "website": "https://projects.pikulinweb.ru/todoapp",
+            "github": "https://github.com/kanae367/todo-app"
+        }
+    },
+    {
+        "name": "Feedback App",
+        "fullimage": "/fullimages/feedbackapp.webp",
+        "preview": "/previews/feedbackapp.webp",
+        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "technologies": ["HTML", "CSS", "JS", "REACT", "SCSS", "REDUX", "FIREBASE"],
+        "links": {
+            "website": "https://projects.pikulinweb.ru/feedbackapp",
+            "github": "https://github.com/kanae367/feedback-app"
+        }
+    }
+]

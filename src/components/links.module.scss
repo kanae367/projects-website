@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 650px;
+    width: fit-content;
+}
+
+$padding-bottom-link: 5px;
+
+.link{
+    position: relative;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    padding-bottom: $padding-bottom-link;
+
+    &::after{
+        position: absolute;
+        content: '';
+        top: calc(100% + $padding-bottom-link);
+        left: 0;
+        right: 0;
+        background-color: white;
+        height: 2px;
+    }
+}

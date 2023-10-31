@@ -1,0 +1,42 @@
+{
+    "HTML": {
+        "src": "html.svg",
+        "alt": "HTML 5"
+    },
+    "CSS": {
+        "src": "css3.svg",
+        "alt": "CSS 5"
+    },
+    "JQUERY": {
+        "src": "jquery.svg",
+        "alt": "JQuery"
+    },
+    "JS": {
+        "src": "js.svg",
+        "alt": "JavaScript"
+    },
+    "FIGMA": {
+        "src": "figma.svg",
+        "alt": "Figma"
+    },
+    "SCSS": {
+        "src": "scss.svg",
+        "alt": "SCSS"
+    },
+    "TS": {
+        "src": "ts.svg",
+        "alt": "TypeScript"
+    },
+    "FIREBASE": {
+        "src": "firebase.svg",
+        "alt": "Firebase"
+    },
+    "REACT": {
+        "src": "react.svg",
+        "alt": "React"
+    },
+    "REDUX": {
+        "src": "docker.svg",
+        "alt": "Redux"
+    }
+}

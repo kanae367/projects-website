@@ -1,32 +1,38 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, A11y, Mousewheel, Keyboard } from 'swiper/modules';
 import style from './bottomSlider.module.scss';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import data from "../data.json";
 
-const BottomSlider = () => {
+const BottomSlider = ({setNumber}: {
+    setNumber(arg0: number): void
+}) => {
+    const swiperSlides = data.map((project, index) => 
+        <SwiperSlide 
+            key={project.name} 
+            className={style.slide}>
+            {({ isActive }) => {
+                isActive ? setNumber(index + 2) : null;
+
+                return (
+                
+                <img className={isActive ? style.image : style.image2} src={project.preview} alt={project.name} />
+            )}}
+        </SwiperSlide>)
     return(
         <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            modules={[Navigation, A11y, Mousewheel, Keyboard]}
             spaceBetween={50}
-            slidesPerView={3}
-            onSlideChange={() => console.log('slide changed')}
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
+            slidesPerView={5} 
+            mousewheel
+            keyboard
+            loop
             className={style.wrapper}>
             
-            <SwiperSlide className={style.slide}>Slide 1</SwiperSlide>
-            <SwiperSlide className={style.slide}>Slide 2</SwiperSlide>
-            <SwiperSlide className={style.slide}>Slide 3</SwiperSlide>
-            <SwiperSlide className={style.slide}>Slide 4</SwiperSlide>
-            <SwiperSlide className={style.slide}>Slide 5</SwiperSlide>
-            <SwiperSlide className={style.slide}>Slide 6</SwiperSlide>
-            <SwiperSlide className={style.slide}>Slide 7</SwiperSlide>
-            <SwiperSlide className={style.slide}>Slide 8</SwiperSlide>
-            <SwiperSlide className={style.slide}>Slide 9</SwiperSlide>
-            <SwiperSlide className={style.slide}>Slide 10</SwiperSlide>
+            {swiperSlides}
         </Swiper>
     )
 }

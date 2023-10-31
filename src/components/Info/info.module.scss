@@ -1,0 +1,63 @@
+.container{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 1;
+    display: block;
+    
+    width: 450px;
+    height: 600px;
+    background-color: #1e1b1b99;
+    color: #E0E193;
+
+    &::before{
+        content: '';
+        left: -50px;
+        height: 100%;
+        top: 0;
+        background-color: red;
+        width: 2px;
+        z-index: 2;
+        position: absolute;
+    }
+}
+
+.header{
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.swiperContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.toolsTitle{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.swiper{
+    width: 100%;
+}
+
+.slide{
+    background-color: #1e1b1b99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    border: 1px solid #E0E193;
+}
+
+.image{
+    height: calc(100% - 15px);
+}
+
+.text{
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 1.6;
+}
