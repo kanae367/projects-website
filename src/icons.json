@@ -1,42 +1,72 @@
-{
-    "HTML": {
-        "src": "html.svg",
-        "alt": "HTML 5"
+[
+    {
+        "name": "HTML",
+        "data": {
+            "src": "html.svg",
+            "alt": "HTML 5"
+        }
     },
-    "CSS": {
-        "src": "css3.svg",
-        "alt": "CSS 5"
+    {
+        "name": "CSS",
+        "data": {
+            "src": "css3.svg",
+            "alt": "CSS 3"
+        }
     },
-    "JQUERY": {
-        "src": "jquery.svg",
-        "alt": "JQuery"
+    {
+        "name": "JQUERY",
+        "data": {
+            "src": "jquery.svg",
+            "alt": "JQuery"
+        }
     },
-    "JS": {
-        "src": "js.svg",
-        "alt": "JavaScript"
+    {
+        "name": "JS",
+        "data": {
+            "src": "js.svg",
+            "alt": "JavaScript"
+        }
     },
-    "FIGMA": {
-        "src": "figma.svg",
-        "alt": "Figma"
+    {
+        "name": "FIGMA",
+        "data": {
+            "src": "figma.svg",
+            "alt": "Figma"
+        }
     },
-    "SCSS": {
-        "src": "scss.svg",
-        "alt": "SCSS"
+    {
+        "name": "SCSS",
+        "data": {
+            "src": "scss.svg",
+            "alt": "SCSS"
+        }
     },
-    "TS": {
-        "src": "ts.svg",
-        "alt": "TypeScript"
+    {
+        "name": "TS",
+        "data": {
+            "src": "ts.svg",
+            "alt": "TypeScript"
+        }
     },
-    "FIREBASE": {
-        "src": "firebase.svg",
-        "alt": "Firebase"
+    {
+        "name": "FIREBASE",
+        "data": {
+            "src": "firebase.svg",
+            "alt": "Firebase"
+        }
     },
-    "REACT": {
-        "src": "react.svg",
-        "alt": "React"
+    {
+        "name": "REACT",
+        "data": {
+            "src": "react.svg",
+            "alt": "React"
+        }
     },
-    "REDUX": {
-        "src": "docker.svg",
-        "alt": "Redux"
+    {
+        "name": "REDUX",
+        "data": {
+            "src": "redux.svg",
+            "alt": "Redux"
+        }
     }
-}
+]
