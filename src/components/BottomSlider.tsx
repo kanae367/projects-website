@@ -18,8 +18,7 @@ const BottomSlider = ({setNumber}: {
                 isActive ? setNumber(index + 2) : null;
 
                 return (
-                
-                <img className={isActive ? style.image : style.image2} src={project.preview} alt={project.name} />
+                <img className={style.image} src={project.preview} alt={project.name} />
             )}}
         </SwiperSlide>)
     return(
