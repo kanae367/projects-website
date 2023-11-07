@@ -23,17 +23,19 @@ const BottomSlider = ({setNumber}: {
             )}}
         </SwiperSlide>)
     return(
-        <Swiper
-            modules={[Navigation, A11y, Mousewheel, Keyboard]}
-            spaceBetween={50}
-            slidesPerView={5} 
-            mousewheel
-            keyboard
-            loop
-            className={style.wrapper}>
-            
-            {swiperSlides}
-        </Swiper>
+        <div className={style["slider-outer"]}>
+            <Swiper
+                modules={[Navigation, A11y, Mousewheel, Keyboard]}
+                spaceBetween={50}
+                slidesPerView={5} 
+                mousewheel
+                keyboard
+                loop
+                className={style.wrapper}>
+                
+                {swiperSlides}
+            </Swiper>
+        </div>
     )
 }
 

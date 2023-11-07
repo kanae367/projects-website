@@ -7,12 +7,16 @@
     
     width: 450px;
     height: 600px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 24px;
     background-color: #1e1b1b99;
+    box-shadow: 0 0 50px #1e1b1b99;
     color: #E0E193;
 
     &::before{
         content: '';
-        left: -50px;
+        left: 0px;
         height: 100%;
         top: 0;
         background-color: red;

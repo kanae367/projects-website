@@ -2,25 +2,25 @@
     display: flex;
     gap: 30px;
     margin: 0 auto;
-    margin-top: 650px;
     width: fit-content;
 }
 
-$padding-bottom-link: 5px;
+$padding-side-link: 10px;
 
 .link{
     position: relative;
     font-size: 32px;
     color: white;
     text-decoration: none;
-    padding-bottom: $padding-bottom-link;
+    padding: 5px $padding-side-link;
+    text-shadow: 2px 2px 4px #000;
 
     &::after{
         position: absolute;
         content: '';
-        top: calc(100% + $padding-bottom-link);
-        left: 0;
-        right: 0;
+        top: 100%;
+        left: $padding-side-link;
+        right: $padding-side-link;
         background-color: white;
         height: 2px;
     }

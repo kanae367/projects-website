@@ -2,121 +2,121 @@
     {
         "name": "How To Learn",
         "fullimage": "/fullimages/howtolearn.webp",
-        "preview": "/previews/howtolearn.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/howtolearn.webp",
+        "text": "The goal of this website is to encourage people to learn new things and help them learn better.",
         "technologies": ["HTML", "CSS"],
         "links": {
-            "website": "https://kanae367.github.io/how-to-learn/",
+            "website": "https://works.pikulinweb.ru/how-to-learn/",
             "github": "https://github.com/kanae367/how-to-learn"
         }
     },
     {
         "name": "Russian Travel",
         "fullimage": "/fullimages/russiantravel.webp",
-        "preview": "/previews/russiantravel.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/russiantravel.webp",
+        "text": "The website provides users with information about some of the beautiful nature reserves in Russia, photos of local nature.",
         "technologies": ["HTML", "CSS"],
         "links": {
-            "website": "https://kanae367.github.io/russian-travel/",
+            "website": "https://works.pikulinweb.ru/russian-travel/",
             "github": "https://github.com/kanae367/russian-travel"
         }
     },
     {
         "name": "Cursator",
         "fullimage": "/fullimages/cursator.webp",
-        "preview": "/previews/cursator.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/cursator.webp",
+        "text": "The site provides users with a variety of information about online schools, allowing them to choose the right course, as well as read several articles related to it.",
         "technologies": ["HTML", "CSS"],
         "links": {
-            "website": "https://kanae367.github.io/cursator/",
+            "website": "https://works.pikulinweb.ru/cursator/",
             "github": "https://github.com/kanae367/cursator"
         }
     },
     {
         "name": "Nimbly",
         "fullimage": "/fullimages/nimbly.webp",
-        "preview": "/previews/nimbly.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/nimbly.webp",
+        "text": "The website provides users with information about the services of the company, allows them to get free advice, as well as to apply for a demo version of the product provided by the company.",
         "technologies": ["HTML", "CSS"],
         "links": {
-            "website": "https://kanae367.github.io/nimbly/",
+            "website": "https://works.pikulinweb.ru/nimbly/",
             "github": "https://github.com/kanae367/nimbly"
         }
     },
     {
         "name": "Landing Page",
         "fullimage": "/fullimages/landingpage.webp",
-        "preview": "/previews/landingpage.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/landingpage.webp",
+        "text": "The website was created to provide users with information about designer.",
         "technologies": ["HTML", "CSS", "JS"],
         "links": {
-            "website": "https://kanae367.github.io/landing-page-template/",
+            "website": "https://works.pikulinweb.ru/designers-landing-page",
             "github": "https://github.com/kanae367/landing-page-template"
         }
     },
     {
         "name": "Mesto",
         "fullimage": "/fullimages/mesto.webp",
-        "preview": "/previews/mesto.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/mesto.webp",
+        "text": "The purpose of this website is to give user opportunity to share his favorite photos with others.",
         "technologies": ["HTML", "CSS", "JS"],
         "links": {
-            "website": "https://kanae367.github.io/mesto/",
+            "website": "https://works.pikulinweb.ru/mesto/",
             "github": "https://github.com/kanae367/mesto"
         }
     },
     {
         "name": "Space Tourism",
         "fullimage": "/fullimages/spacetourism.webp",
-        "preview": "/previews/spacetourism.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/spacetourism.webp",
+        "text": "A single-page website that contains information about space, planets and modern space technologies.",
         "technologies": ["HTML", "CSS", "JS", "JQUERY", "SCSS"],
         "links": {
-            "website": "https://kanae367.github.io/space-tourism/",
+            "website": "https://works.pikulinweb.ru/space-tourism/",
             "github": "https://github.com/kanae367/space-tourism"
         }
     },
     {
         "name": "Design Agency",
         "fullimage": "/fullimages/designagency.webp",
-        "preview": "/previews/designagency.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/designagency.webp",
+        "text": "The site provides users with information about the design agency. It contains information about the agency's team, the design process, the latest websites created, client reviews, and more.",
         "technologies": ["HTML", "CSS", "JS", "SCSS"],
         "links": {
-            "website": "https://kanae367.github.io/design-agency-template/",
+            "website": "https://works.pikulinweb.ru/design-agency/",
             "github": "https://github.com/kanae367/design-agency-template"
         }
     },
     {
         "name": "Rock Paper Scissors",
         "fullimage": "/fullimages/rockpaperscissors.webp",
-        "preview": "/previews/rockpaperscissors.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/rockpaperscissors.webp",
+        "text": "This website is a rock paper scissors lizard spock game.",
         "technologies": ["HTML", "CSS", "JS"],
         "links": {
-            "website": "https://kanae367.github.io/https://github.com/kanae367/rock-paper-scissors-lizard-spock",
-            "github": "https://github.com/kanae367/https://github.com/kanae367/rock-paper-scissors-lizard-spock"
+            "website": "https://works.pikulinweb.ru/rock-paper-scissors-lizard-spock",
+            "github": "https://github.com/kanae367/rock-paper-scissors-lizard-spock"
         }
     },
     {
         "name": "Todo App",
         "fullimage": "/fullimages/todoapp.webp",
-        "preview": "/previews/todoapp.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/todoapp.webp",
+        "text": "This website is a task management app.",
         "technologies": ["HTML", "CSS", "JS", "REACT", "SCSS", "FIREBASE"],
         "links": {
-            "website": "https://projects.pikulinweb.ru/todoapp",
+            "website": "https://works.pikulinweb.ru/todo-app",
             "github": "https://github.com/kanae367/todo-app"
         }
     },
     {
         "name": "Feedback App",
         "fullimage": "/fullimages/feedbackapp.webp",
-        "preview": "/previews/feedbackapp.webp",
-        "text": "LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM LOREM",
+        "preview": "/fullimages/feedbackapp.webp",
+        "text": "This website is a product feedback app.",
         "technologies": ["HTML", "CSS", "JS", "REACT", "SCSS", "REDUX", "FIREBASE"],
         "links": {
-            "website": "https://projects.pikulinweb.ru/feedbackapp",
+            "website": "https://works.pikulinweb.ru/feedback-app",
             "github": "https://github.com/kanae367/feedback-app"
         }
     }
