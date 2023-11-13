@@ -23,6 +23,7 @@ $bottom-margin: 50px;
 .slide{
     width: calc(calc(100% - 200px) / 10);
     height: $slide-height;
+    user-select: none;
 }
 
 .image{
