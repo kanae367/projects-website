@@ -25,11 +25,12 @@ const BottomSlider = ({setNumber, links}: {
                 <img className={style.image} src={project.preview} alt={project.name} />
             )}}
         </SwiperSlide>)
+        
     return(
         <div className={style["slider-outer"]}>
             <div className={style.links}>
-                <a className={style.link} href="#">Code</a>
-                <a className={style.link} href="#">Visit Site</a>
+                <a className={style.link} href={links.github}>Code</a>
+                <a className={style.link} href={links.website}>Visit Site</a>
             </div>
             <Swiper
                 modules={[A11y, Mousewheel, Keyboard]}

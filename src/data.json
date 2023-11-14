@@ -70,7 +70,7 @@
         "fullimage": "/fullimages/spacetourism.webp",
         "preview": "/fullimages/spacetourism.webp",
         "text": "A single-page website that contains information about space, planets and modern space technologies. It consists of 4 sections, each of which contains its own information. The website looks great on devices with different viewports due to adaptive layout. ",
-        "technologies": ["HTML", "CSS", "JS", "JQUERY", "SCSS"],
+        "technologies": ["HTML", "CSS", "JS", "JQUERY", "SASS"],
         "links": {
             "website": "https://works.pikulinweb.ru/space-tourism/",
             "github": "https://github.com/kanae367/space-tourism"
@@ -81,7 +81,7 @@
         "fullimage": "/fullimages/designagency.webp",
         "preview": "/fullimages/designagency.webp",
         "text": "The site provides users with information about the design agency. It contains information about the agency's team, the design process, the latest websites created, client reviews, and more.",
-        "technologies": ["HTML", "CSS", "JS", "SCSS"],
+        "technologies": ["HTML", "CSS", "JS", "SASS"],
         "links": {
             "website": "https://works.pikulinweb.ru/design-agency/",
             "github": "https://github.com/kanae367/design-agency-template"
@@ -103,7 +103,7 @@
         "fullimage": "/fullimages/todoapp.webp",
         "preview": "/fullimages/todoapp.webp",
         "text": "This website is a task management app.",
-        "technologies": ["HTML", "CSS", "JS", "REACT", "SCSS", "FIREBASE"],
+        "technologies": ["HTML", "CSS", "JS", "REACT", "SASS", "FIREBASE"],
         "links": {
             "website": "https://works.pikulinweb.ru/todo-app",
             "github": "https://github.com/kanae367/todo-app"
@@ -114,7 +114,7 @@
         "fullimage": "/fullimages/feedbackapp.webp",
         "preview": "/fullimages/feedbackapp.webp",
         "text": "This is a feedback sharing app. With its help, user can report an issue, which can be handled by development team afterwards. User can leave a comment to a feedback, upvote it or edit it if necessary. Feedbacks have different states. Feedbacks with a 'suggestion' state can be seen on the home page, while the rest can be seen on the roadmap page.",
-        "technologies": ["HTML", "CSS", "JS", "REACT", "SCSS", "REDUX", "FIREBASE"],
+        "technologies": ["HTML", "CSS", "JS", "REACT", "SASS", "REDUX", "FIREBASE"],
         "links": {
             "website": "https://works.pikulinweb.ru/feedback-app",
             "github": "https://github.com/kanae367/feedback-app"

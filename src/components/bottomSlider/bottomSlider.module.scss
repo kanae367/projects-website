@@ -60,13 +60,17 @@ $bottom-margin: 50px;
 .link{
     font-size: 24px;
     display: inline-block;
-    padding: 10px 40px;
+    padding: 5px 40px;
     text-decoration: none;
     color: white;
-    background-color: #1e1b1b80;
+    background-color: rgba($color: #1e1b1b, $alpha: .8);
+
+    &:first-child{
+        clip-path: polygon(0 100%, 15% 0%, 100% 0%, 100% 100%);
+    }
 
     &:last-child{
-        border-left: 1px solid white;
-        // clip-path: polygon(0 0, 100% 50%, 50% 100%, 100% 100%);
+        position: relative;
+        clip-path: polygon(0 0, 85% 0%, 100% 100%, 0 100%);
     }
 }

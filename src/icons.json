@@ -35,10 +35,10 @@
         }
     },
     {
-        "name": "SCSS",
+        "name": "SASS",
         "data": {
-            "src": "scss.svg",
-            "alt": "SCSS"
+            "src": "sass.svg",
+            "alt": "Sass"
         }
     },
     {
