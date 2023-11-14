@@ -18,7 +18,7 @@ const Info = ({name, text, technologies}: {
         <div className={style.container}>
             <h2 className={style.header}>{name}</h2>
             <div className={style.swiperContainer}>
-                <h3 className={style.toolsTitle}>Technologies:</h3>
+                <h3 className={style.title}>Technologies:</h3>
                 <Swiper
                     modules={[Navigation, Mousewheel, A11y]}
                     spaceBetween={10}
@@ -30,7 +30,10 @@ const Info = ({name, text, technologies}: {
                     {swiperSlides}
                 </Swiper>
             </div>
-            <p className={style.text}>{text}</p>
+            <div className={style.brief}>
+                <h3 className={style.title}>Brief:</h3>
+                <p className={style.text}>{text}</p>
+            </div>
         </div>
     )
 }

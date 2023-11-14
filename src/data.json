@@ -69,7 +69,7 @@
         "name": "Space Tourism",
         "fullimage": "/fullimages/spacetourism.webp",
         "preview": "/fullimages/spacetourism.webp",
-        "text": "A single-page website that contains information about space, planets and modern space technologies.",
+        "text": "A single-page website that contains information about space, planets and modern space technologies. It consists of 4 sections, each of which contains its own information. The website looks great on devices with different viewports due to adaptive layout. ",
         "technologies": ["HTML", "CSS", "JS", "JQUERY", "SCSS"],
         "links": {
             "website": "https://works.pikulinweb.ru/space-tourism/",
@@ -113,7 +113,7 @@
         "name": "Feedback App",
         "fullimage": "/fullimages/feedbackapp.webp",
         "preview": "/fullimages/feedbackapp.webp",
-        "text": "This website is a product feedback app.",
+        "text": "This is a feedback sharing app. With its help, user can report an issue, which can be handled by development team afterwards. User can leave a comment to a feedback, upvote it or edit it if necessary. Feedbacks have different states. Feedbacks with a 'suggestion' state can be seen on the home page, while the rest can be seen on the roadmap page.",
         "technologies": ["HTML", "CSS", "JS", "REACT", "SCSS", "REDUX", "FIREBASE"],
         "links": {
             "website": "https://works.pikulinweb.ru/feedback-app",
