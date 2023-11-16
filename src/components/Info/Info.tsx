@@ -16,6 +16,7 @@ const Info = ({name, text, technologies}: {
 
     return(
         <div className={style.container}>
+            <div className={style.lines}></div>
             <h2 className={style.header}>{name}</h2>
             <div className={style.swiperContainer}>
                 <h3 className={style.title}>Technologies:</h3>

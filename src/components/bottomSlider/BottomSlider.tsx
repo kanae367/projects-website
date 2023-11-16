@@ -29,15 +29,16 @@ const BottomSlider = ({setNumber, links}: {
     return(
         <div className={style["slider-outer"]}>
             <div className={style.links}>
-                <a className={style.link} href={links.github}>Code</a>
-                <a className={style.link} href={links.website}>Visit Site</a>
+                <a className={style.link} href={links.github} target='_blank'>Code</a>
+                <a className={style.link} href={links.website} target='_blank'>Visit Site</a>
             </div>
+            <div className={style.header}></div>
             <Swiper
                 modules={[A11y, Mousewheel, Keyboard]}
-
                 breakpoints={{
                     390: {
-                        slidesPerView: 1,
+                        slidesPerView: 3,
+                        spaceBetween: 15
                     },
                     768:{
                         slidesPerView: 3,
@@ -55,6 +56,7 @@ const BottomSlider = ({setNumber, links}: {
                 centeredSlidesBounds={true}
                 slideToClickedSlide={true}
                 centeredSlides={true}
+                allowTouchMove={false}
                 className={style.wrapper}>
                 
                 {swiperSlides}
