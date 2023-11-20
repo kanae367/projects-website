@@ -2,9 +2,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Mousewheel, Keyboard } from 'swiper/modules';
 import style from './bottomSlider.module.scss';
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import data from "../../data.json";
 
 const BottomSlider = ({setNumber, links}: {

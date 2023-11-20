@@ -1,5 +1,6 @@
 [
     {
+        "mobileImage": "mobile/src.webp",
         "name": "How To Learn",
         "fullimage": "/fullimages/howtolearn.webp",
         "preview": "/fullimages/howtolearn.webp",
@@ -11,6 +12,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Russian Travel",
         "fullimage": "/fullimages/russiantravel.webp",
         "preview": "/fullimages/russiantravel.webp",
@@ -22,6 +24,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Cursator",
         "fullimage": "/fullimages/cursator.webp",
         "preview": "/fullimages/cursator.webp",
@@ -33,6 +36,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Nimbly",
         "fullimage": "/fullimages/nimbly.webp",
         "preview": "/fullimages/nimbly.webp",
@@ -44,6 +48,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Landing Page",
         "fullimage": "/fullimages/landingpage.webp",
         "preview": "/fullimages/landingpage.webp",
@@ -55,6 +60,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Mesto",
         "fullimage": "/fullimages/mesto.webp",
         "preview": "/fullimages/mesto.webp",
@@ -66,6 +72,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Space Tourism",
         "fullimage": "/fullimages/spacetourism.webp",
         "preview": "/fullimages/spacetourism.webp",
@@ -77,6 +84,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Design Agency",
         "fullimage": "/fullimages/designagency.webp",
         "preview": "/fullimages/designagency.webp",
@@ -88,6 +96,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Rock Paper Scissors",
         "fullimage": "/fullimages/rockpaperscissors.webp",
         "preview": "/fullimages/rockpaperscissors.webp",
@@ -99,6 +108,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Todo App",
         "fullimage": "/fullimages/todoapp.webp",
         "preview": "/fullimages/todoapp.webp",
@@ -110,6 +120,7 @@
         }
     },
     {
+        "mobileImage": "mobile/src.webp",
         "name": "Feedback App",
         "fullimage": "/fullimages/feedbackapp.webp",
         "preview": "/fullimages/feedbackapp.webp",
