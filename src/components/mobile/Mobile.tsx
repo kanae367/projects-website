@@ -31,7 +31,11 @@ const Mobile = ({currentSlide, setNumber}: {
                 isActive ? setNumber(index) : null;
 
                 return (
-                <img className={styles.image} src={project.fullimage} alt={project.name} />
+                    <div className={styles.imageContainer}>
+                        <div className={styles.imageContainerInner}>
+                            <img className={styles.image} src={project.mobileImage} alt={project.name} />
+                        </div>
+                    </div>
             )}}
 
         </SwiperSlide>) 

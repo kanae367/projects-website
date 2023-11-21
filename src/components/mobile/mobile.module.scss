@@ -10,8 +10,18 @@
     width: 100%;
 }
 
+.imageContainer{
+    height: 320px;
+    overflow-x: hidden;
+}
+
 .image{
     width: 100%;
+    object-position: top;
+    height: 100%;
+}
+
+.slide{
     height: 320px;
 }
 
