@@ -97,14 +97,14 @@
 
 .swiper{
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 
 .slide{
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
-    height: 52px;
+    height: 52px !important;
 }
 
 .image{

@@ -2,11 +2,12 @@ import styles from './mobile.module.scss';
 import {Swiper} from 'swiper/react';
 import data from '../../data.json';
 import { SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Zoom } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/zoom';
 import 'swiper/css/pagination';
 import MobileInfo from './mobile__info/MobileInfo';
+import SwiperButton from './swiperButtons/SwiperNextButton';
 
 const Mobile = ({currentSlide, setNumber}: {
     currentSlide: {
@@ -43,16 +44,17 @@ const Mobile = ({currentSlide, setNumber}: {
     return(
         <div className={styles.container}>
             <Swiper
-                modules={[Navigation, Zoom, Pagination]}
+                modules={[Pagination]}
                 slidesPerView={1}
                 allowTouchMove={false}
-                navigation={true}
-                zoom={true}
                 pagination={true}
+                loop={true}
                 className={styles.swiper}>
-
+                
+                <SwiperButton type="prev"/>
                 { slides }
 
+                <SwiperButton type="next"/>        
             </Swiper>
             
             <h2 className={styles.title}>{currentSlide.name}</h2>

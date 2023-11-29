@@ -40,10 +40,7 @@ $bottom-margin: 50px;
     left: 0;
     right: 0;
     top: 0;
-    background-image: linear-gradient(to right, black, 45%, gold, 55%, black);
-    background-size: 300% 100%;
-    animation: anim 5s linear alternate infinite;
-}
+    background: linear-gradient(to right, black, black 40%, transparent 40%, transparent 60%, 60%, black);}
 
 .slide{
     user-select: none;
@@ -94,7 +91,7 @@ $bottom-margin: 50px;
     top: 3px;
     left: 50%;
     transform: translateX(-50%) translateY(-100%);
-    background-color: rgba($color: #1e1b1b, $alpha: 1);
+    background-color: rgba($color: #1e1b1b, $alpha: .8);
     clip-path: polygon(7% 0, 93% 0, 100% 100%, 0 100%);
     z-index: 5;
 
@@ -105,7 +102,7 @@ $bottom-margin: 50px;
         height: 100%;
         z-index: 20;
         pointer-events: none;
-        box-shadow: inset 0 0 0 2px #1e1b1b;
+        box-shadow: inset 0 2px 0 1px black;
     }
 }
 
@@ -127,7 +124,7 @@ $bottom-margin: 50px;
         position: absolute;
         width: 2px;
         height: calc(100% + 25px);
-        background-color: #1e1b1b;
+        background-color: black;
         top: -5px;
     }
 
@@ -164,7 +161,7 @@ $bottom-margin: 50px;
             background-repeat: no-repeat;
             background-position: center;
             background-image: url('/icons/link.svg');
-            border: 1px solid #1e1b1b;
+            border: 1px solid black;
 
             z-index: 5555;
         }

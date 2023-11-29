@@ -17,7 +17,7 @@ const MobileInfo = ({links, text, technologies}: {
         alt: string;
     }[] = technologies.map(item => iconsSources[iconsSources.findIndex(obj => obj.name === item)].data);
 
-    const icons = srcArray.map(item => <img className={styles.image} src={`/icons/${item.src}`} alt={item.alt} />)
+    const icons = srcArray.map(item => <img key={item.alt} className={styles.image} src={`/icons/${item.src}`} alt={item.alt} />)
     
 
     const handleButtonClick = () => {
@@ -38,7 +38,7 @@ const MobileInfo = ({links, text, technologies}: {
                 <button type='button' className={styles.button} onClick={handleButtonClick}>
                     {
                         isTechnologies 
-                            ? "T"
+                            ? <img className={styles.buttonIcon} src="/icons/gear.svg" alt="gear" />
                             : "i"
                     }
                 </button>                

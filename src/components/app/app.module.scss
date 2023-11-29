@@ -1,7 +1,9 @@
 .main{
     position: relative;
-    background-color: #1e1b1b;
+    background: url('/bg.png');
     scrollbar-width: none;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -12,12 +14,14 @@
         flex-direction: column;
         justify-content: end;
         position: relative;
-        background-color: #1e1b1b;
+        background: url('/bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
         scrollbar-width: none;
         overflow: hidden;
 
         & > img{
-            filter: brightness(.8) blur(10px);
+            opacity: 0;
         }
 
         width: 100vw;

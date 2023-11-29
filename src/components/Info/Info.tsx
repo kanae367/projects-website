@@ -25,7 +25,6 @@ const Info = ({name, text, technologies}: {
                     spaceBetween={10}
                     slidesPerView={4}
                     mousewheel
-                    onSlideChange={() => console.log('slide changed')}
                     className={style.swiper}
                     >
                     {swiperSlides}

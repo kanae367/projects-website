@@ -4,7 +4,7 @@
         "name": "How To Learn",
         "fullimage": "/fullimages/howtolearn.webp",
         "preview": "/fullimages/howtolearn.webp",
-        "text": "The goal of this website is to encourage people to learn new things and help them learn better.",
+        "text": "The goal of this website is to encourage people to learn new things and help them learn better. Developed using modern css properties such as flexbox.",
         "technologies": ["HTML", "CSS"],
         "links": {
             "website": "https://works.pikulinweb.ru/how-to-learn/",
@@ -52,7 +52,7 @@
         "name": "Landing Page",
         "fullimage": "/fullimages/landingpage.webp",
         "preview": "/fullimages/landingpage.webp",
-        "text": "The website was created to provide users with information about designer.",
+        "text": "The website was created to provide users with information about designer. It has an adaptive",
         "technologies": ["HTML", "CSS", "JS"],
         "links": {
             "website": "https://works.pikulinweb.ru/designers-landing-page",
@@ -112,7 +112,7 @@
         "name": "Todo App",
         "fullimage": "/fullimages/todoapp.webp",
         "preview": "/fullimages/todoapp.webp",
-        "text": "This website is a task management app.",
+        "text": "This website is a task management app. Users can add, edit and delete tasks and boards. Tasks can contain a subtasks which can be marked by user as completed. Users can change the status of a task to change the column it is in.",
         "technologies": ["HTML", "CSS", "JS", "REACT", "SASS", "FIREBASE"],
         "links": {
             "website": "https://works.pikulinweb.ru/todo-app",
