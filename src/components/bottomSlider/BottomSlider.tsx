@@ -25,11 +25,14 @@ const BottomSlider = ({setNumber, links}: {
         
     return(
         <div className={style["slider-outer"]}>
-            <div className={style.links}>
-                <a className={style.link} href={links.github} target='_blank'>Code</a>
-                <a className={style.link} href={links.website} target='_blank'>Visit Site</a>
+            <div className={style.header}>
+                <div className={style.line}></div>
+                <div className={style.links}>
+                    <a className={style.link} href={links.github} target='_blank'>Code</a>
+                    <a className={style.link} href={links.website} target='_blank'>Visit Site</a>
+                </div>
+                <div className={style.line}></div>
             </div>
-            <div className={style.header}></div>
             <Swiper
                 modules={[A11y, Mousewheel, Keyboard]}
                 breakpoints={{

@@ -1,6 +1,6 @@
 .main{
     position: relative;
-    background: url('/bg.png');
+    background: url('/bg.webp');
     scrollbar-width: none;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,30 +10,16 @@
     overflow: hidden;
 
     &_changing{
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        position: relative;
-        background: url('/bg.png');
-        background-size: cover;
-        background-repeat: no-repeat;
+        composes: main;
         scrollbar-width: none;
-        overflow: hidden;
 
         & > img{
             opacity: 0;
         }
-
-        width: 100vw;
-        height: 100vh;
-    
-        ::-webkit-scrollbar{
-            width: none;
-        }
     }
 
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
 
     ::-webkit-scrollbar{
         width: none;

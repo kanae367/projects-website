@@ -8,30 +8,7 @@
     
     @media screen and (min-width: 1280px) {
         width: 350px;
-    }
-
-    // &::after{
-    //     content: '';
-    //     position: absolute;
-    //     top: 0;
-    //     right: calc(100% + 20px);
-    //     width: 10px;
-    //     height: 100%;
-    //     border-left: 2px solid rgb(163, 3, 3);
-    //     border-right: 2px solid rgb(163, 3, 3);
-    // }
-
-    // &::before{
-    //     content: '';
-    //     position: absolute;
-    //     top: 200px;
-    //     right: calc(100% + 10px);
-    //     width: 30px;
-    //     height: 30px;
-    //     border-top: 2px solid #1e1b1b;
-    //     border-right: 2px solid #1e1b1b;
-    //     rotate: 45deg;
-    // }
+    }   
 }
 
 @keyframes line-animation {
@@ -115,7 +92,7 @@
     width: 100%;
     background-color: rgba($color: #1e1b1b, $alpha: .5);
     margin-top: 50px;
-    min-height: 300px;
+    height: 340px;
 }
 
 .text{

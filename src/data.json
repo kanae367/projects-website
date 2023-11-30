@@ -1,26 +1,62 @@
 [
     {
-        "mobileImage": "mobile/howtolearn.webp",
-        "name": "How To Learn",
-        "fullimage": "/fullimages/howtolearn.webp",
-        "preview": "/fullimages/howtolearn.webp",
-        "text": "The goal of this website is to encourage people to learn new things and help them learn better. Developed using modern css properties such as flexbox.",
-        "technologies": ["HTML", "CSS"],
+        "mobileImage": "mobile/todoapp.webp",
+        "name": "Todo App",
+        "fullimage": "/fullimages/todoapp.webp",
+        "preview": "/fullimages/todoapp.webp",
+        "text": "This website is a task management app. Users can add, edit and delete tasks and boards. Tasks can contain a subtasks which can be marked by user as completed. Users can change the status of a task to change the column it is in.",
+        "technologies": ["HTML", "CSS", "JS", "REACT", "SASS", "FIREBASE"],
         "links": {
-            "website": "https://works.pikulinweb.ru/how-to-learn/",
-            "github": "https://github.com/kanae367/how-to-learn"
+            "website": "https://works.pikulinweb.ru/todo-app",
+            "github": "https://github.com/kanae367/todo-app"
         }
     },
     {
-        "mobileImage": "mobile/russiantravel.webp",
-        "name": "Russian Travel",
-        "fullimage": "/fullimages/russiantravel.webp",
-        "preview": "/fullimages/russiantravel.webp",
-        "text": "The website provides users with information about some of the beautiful nature reserves in Russia, photos of local nature.",
-        "technologies": ["HTML", "CSS"],
+        "mobileImage": "mobile/designagency.webp",
+        "name": "Design Agency",
+        "fullimage": "/fullimages/designagency.webp",
+        "preview": "/fullimages/designagency.webp",
+        "text": "The site provides users with information about the design agency. It contains information about the agency's team, the design process, the latest websites created, client reviews, and more.",
+        "technologies": ["HTML", "CSS", "JS", "SASS"],
         "links": {
-            "website": "https://works.pikulinweb.ru/russian-travel/",
-            "github": "https://github.com/kanae367/russian-travel"
+            "website": "https://works.pikulinweb.ru/design-agency/",
+            "github": "https://github.com/kanae367/design-agency-template"
+        }
+    },
+    {
+        "mobileImage": "mobile/feedbackapp.webp",
+        "name": "Feedback App",
+        "fullimage": "/fullimages/feedbackapp.webp",
+        "preview": "/fullimages/feedbackapp.webp",
+        "text": "This is a feedback sharing app. With its help, user can report an issue, which can be handled by development team afterwards. User can leave a comment to a feedback, upvote it or edit it if necessary. Feedbacks have different states. Feedbacks with a 'suggestion' state can be seen on the home page, while the rest can be seen on the roadmap page.",
+        "technologies": ["HTML", "CSS", "JS", "REACT", "SASS", "REDUX", "FIREBASE"],
+        "links": {
+            "website": "https://works.pikulinweb.ru/feedback-app",
+            "github": "https://github.com/kanae367/feedback-app"
+        }
+    },
+    {
+        "mobileImage": "mobile/spacetourism.webp",
+        "name": "Space Tourism",
+        "fullimage": "/fullimages/spacetourism.webp",
+        "preview": "/fullimages/spacetourism.webp",
+        "text": "A single-page website that contains information about space, planets and modern space technologies. It consists of four sections, each of which contains its own information. Navigation between sections is via navigation bar at the top of the site. The website looks great on devices with different viewports due to adaptive layout. ",
+        "technologies": ["HTML", "CSS", "JS", "JQUERY", "SASS"],
+        "links": {
+            "website": "https://works.pikulinweb.ru/space-tourism/",
+            "github": "https://github.com/kanae367/space-tourism"
+        }
+    },
+    {
+        "mobileImage": "mobile/mesto.webp",
+        "name": "Mesto",
+        "fullimage": "/fullimages/mesto.webp",
+        "preview": "/fullimages/mesto.webp",
+        "text": "The purpose of this website is to give users opportunity to share their favorite photos with others. There are several ways for users to interact with the site: add a new photo, like or delete an existing one, change profile information. Developed using modern CSS and JavaScript it provides excellent usability and looks good on all types of devices.",
+        "technologies": ["HTML", "CSS", "JS"],
+        "links": {
+            "website": "https://works.pikulinweb.ru/mesto/",
+            "github": "https://github.com/kanae367/mesto"
         }
     },
     {
@@ -28,7 +64,7 @@
         "name": "Cursator",
         "fullimage": "/fullimages/cursator.webp",
         "preview": "/fullimages/cursator.webp",
-        "text": "The site provides users with a variety of information about online schools, allowing them to choose the right course, as well as read several articles related to it.",
+        "text": "The site provides users with a variety of information about online schools, allowing them to choose the right course, as well as read several articles related to it. The site uses modern development tools to improve user experience. ",
         "technologies": ["HTML", "CSS"],
         "links": {
             "website": "https://works.pikulinweb.ru/cursator/",
@@ -52,7 +88,7 @@
         "name": "Landing Page",
         "fullimage": "/fullimages/landingpage.webp",
         "preview": "/fullimages/landingpage.webp",
-        "text": "The website was created to provide users with information about designer. It has an adaptive",
+        "text": "Landing page with simple design, quick code and fast loading time. It contains information about designer and his latest works. The site looks good on different screen sized devices.",
         "technologies": ["HTML", "CSS", "JS"],
         "links": {
             "website": "https://works.pikulinweb.ru/designers-landing-page",
@@ -60,39 +96,27 @@
         }
     },
     {
-        "mobileImage": "mobile/mesto.webp",
-        "name": "Mesto",
-        "fullimage": "/fullimages/mesto.webp",
-        "preview": "/fullimages/mesto.webp",
-        "text": "The purpose of this website is to give user opportunity to share his favorite photos with others.",
-        "technologies": ["HTML", "CSS", "JS"],
+        "mobileImage": "mobile/howtolearn.webp",
+        "name": "How To Learn",
+        "fullimage": "/fullimages/howtolearn.webp",
+        "preview": "/fullimages/howtolearn.webp",
+        "text": "The goal of this website is to encourage people to learn new things and help them learn better. This is a landing page developed with the use of modern css properties.",
+        "technologies": ["HTML", "CSS"],
         "links": {
-            "website": "https://works.pikulinweb.ru/mesto/",
-            "github": "https://github.com/kanae367/mesto"
+            "website": "https://works.pikulinweb.ru/how-to-learn/",
+            "github": "https://github.com/kanae367/how-to-learn"
         }
     },
     {
-        "mobileImage": "mobile/spacetourism.webp",
-        "name": "Space Tourism",
-        "fullimage": "/fullimages/spacetourism.webp",
-        "preview": "/fullimages/spacetourism.webp",
-        "text": "A single-page website that contains information about space, planets and modern space technologies. It consists of 4 sections, each of which contains its own information. The website looks great on devices with different viewports due to adaptive layout. ",
-        "technologies": ["HTML", "CSS", "JS", "JQUERY", "SASS"],
+        "mobileImage": "mobile/russiantravel.webp",
+        "name": "Russian Travel",
+        "fullimage": "/fullimages/russiantravel.webp",
+        "preview": "/fullimages/russiantravel.webp",
+        "text": "The website provides users with information about some of the beautiful nature reserves in Russia, photos of local nature. The site consists of three sections, each of which has its own purpose. Created using modern css properties, the site offers users a user-friendly experience. ",
+        "technologies": ["HTML", "CSS"],
         "links": {
-            "website": "https://works.pikulinweb.ru/space-tourism/",
-            "github": "https://github.com/kanae367/space-tourism"
-        }
-    },
-    {
-        "mobileImage": "mobile/designagency.webp",
-        "name": "Design Agency",
-        "fullimage": "/fullimages/designagency.webp",
-        "preview": "/fullimages/designagency.webp",
-        "text": "The site provides users with information about the design agency. It contains information about the agency's team, the design process, the latest websites created, client reviews, and more.",
-        "technologies": ["HTML", "CSS", "JS", "SASS"],
-        "links": {
-            "website": "https://works.pikulinweb.ru/design-agency/",
-            "github": "https://github.com/kanae367/design-agency-template"
+            "website": "https://works.pikulinweb.ru/russian-travel/",
+            "github": "https://github.com/kanae367/russian-travel"
         }
     },
     {
@@ -100,35 +124,11 @@
         "name": "Rock Paper Scissors",
         "fullimage": "/fullimages/rockpaperscissors.webp",
         "preview": "/fullimages/rockpaperscissors.webp",
-        "text": "This website is a rock paper scissors lizard spock game.",
+        "text": "This website is a rock paper scissors game from 'The Big Bang Theory' show. You can pick one of five options by clicking on button with correspondent icon on it. Then the computer will make a random choice. The winner is determined by rules which you can check by clicking on the 'RULES' button.",
         "technologies": ["HTML", "CSS", "JS"],
         "links": {
             "website": "https://works.pikulinweb.ru/rock-paper-scissors-lizard-spock",
             "github": "https://github.com/kanae367/rock-paper-scissors-lizard-spock"
-        }
-    },
-    {
-        "mobileImage": "mobile/todoapp.webp",
-        "name": "Todo App",
-        "fullimage": "/fullimages/todoapp.webp",
-        "preview": "/fullimages/todoapp.webp",
-        "text": "This website is a task management app. Users can add, edit and delete tasks and boards. Tasks can contain a subtasks which can be marked by user as completed. Users can change the status of a task to change the column it is in.",
-        "technologies": ["HTML", "CSS", "JS", "REACT", "SASS", "FIREBASE"],
-        "links": {
-            "website": "https://works.pikulinweb.ru/todo-app",
-            "github": "https://github.com/kanae367/todo-app"
-        }
-    },
-    {
-        "mobileImage": "mobile/feedbackapp.webp",
-        "name": "Feedback App",
-        "fullimage": "/fullimages/feedbackapp.webp",
-        "preview": "/fullimages/feedbackapp.webp",
-        "text": "This is a feedback sharing app. With its help, user can report an issue, which can be handled by development team afterwards. User can leave a comment to a feedback, upvote it or edit it if necessary. Feedbacks have different states. Feedbacks with a 'suggestion' state can be seen on the home page, while the rest can be seen on the roadmap page.",
-        "technologies": ["HTML", "CSS", "JS", "REACT", "SASS", "REDUX", "FIREBASE"],
-        "links": {
-            "website": "https://works.pikulinweb.ru/feedback-app",
-            "github": "https://github.com/kanae367/feedback-app"
         }
     }
 ]
