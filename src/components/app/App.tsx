@@ -37,6 +37,12 @@ const App = () => {
                 <BottomSlider
                     setNumber={setCurrentSlideNumber}
                     links={currentSlide.links}/>
+                <a className={style.backToMain} href="https://pikulinweb.ru">
+                    <img className={style.image} src="/icons/home.svg" alt="home" />
+                    <span className={style.text}>
+                        Home Page
+                    </span>
+                </a>
             </div>
         : <Mobile
             setNumber={setCurrentSlideNumber}

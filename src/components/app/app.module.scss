@@ -25,3 +25,51 @@
         width: none;
     }
 }
+
+.backToMain{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    overflow: hidden;
+    height: 50px;
+    transition: padding-right .5s;
+    background-color: #1e1b1b;
+    border-radius: 4px;
+    
+    &:hover{
+        padding-right: 170px;
+
+        .text{
+            left: 60px;
+        }
+
+        .image{
+            background-color: #333;
+        }
+    }
+}
+
+.image{
+    position: relative;
+    background-color: #1e1b1b;
+    padding: 10px;
+    height: 50px;
+    padding-right: 10px;
+    transition: all .5s;
+    border-radius: 4px;
+    z-index: 5;
+}
+
+.text{
+    position: absolute;
+    transition: left .5s;
+    transform-origin: right;
+    transform: translateX(-100px);
+    left: -100px;
+    top: 50%;
+    width: 20ch;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: white;
+    font-size: 24px;
+}
