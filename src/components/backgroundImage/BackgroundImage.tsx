@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import style from './image.module.scss';
+import { useMediaQuery } from 'react-responsive';
+
 
 interface image {
     src: string;
@@ -8,14 +10,14 @@ interface image {
 
 const BackgroundImage = ({src, alt}: image) => {
     const [isFirst, setIsFirst] = useState(true);
-    const isMobile = window.innerWidth < 800;
+    const isMobile = useMediaQuery({query: '(max-width: 1279px)'});
 
     useEffect(() => {
-        const interval = setTimeout(() => {
+        const timeout = setTimeout(() => {
             !isMobile && setIsFirst(!isFirst);
         }, 10000)
 
-        return clearInterval(interval);
+        return () => clearTimeout(timeout);
     }, [isFirst])
 
     useEffect(() => {

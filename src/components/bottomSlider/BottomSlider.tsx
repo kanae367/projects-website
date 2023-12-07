@@ -49,12 +49,15 @@ const BottomSlider = ({setNumber, links}: {
                         spaceBetween: 50
                     }
                 }}
-                mousewheel={true}
+                mousewheel={
+                    {
+                        thresholdDelta: 100
+                    }
+                }
                 keyboard={true}
                 loop={true}
+                loopAddBlankSlides={true}
                 normalizeSlideIndex={true}
-                centeredSlidesBounds={true}
-                slideToClickedSlide={true}
                 centeredSlides={true}
                 allowTouchMove={false}
                 className={style.wrapper}>

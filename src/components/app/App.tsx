@@ -15,13 +15,13 @@ const App = () => {
 
     useEffect(() => {
         setIsChanging(true);
-
-        setTimeout(() => {
+        
+        const timeout = setTimeout(() => {
             setCurrentSlide(data[currentSlideNumber]);
 
             setIsChanging(false);
         }, isLargeScreen ? 500 : 150);
-
+        return () => clearTimeout(timeout);
     }, [currentSlideNumber])
 
     return(
