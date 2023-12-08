@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/zoom';
 import 'swiper/css/pagination';
 import MobileInfo from './mobile__info/MobileInfo';
-import SwiperButton from './swiperButtons/SwiperNextButton';
+import SwiperButton from './swiperButtons/SwiperButton';
 
 const Mobile = ({currentSlide, setNumber}: {
     currentSlide: {

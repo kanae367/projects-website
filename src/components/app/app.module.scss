@@ -9,6 +9,10 @@
     justify-content: end;
     overflow: hidden;
 
+    @media screen and (min-width: 1280px) {
+        align-items: end;
+    }
+
     &_changing{
         composes: main;
         scrollbar-width: none;
