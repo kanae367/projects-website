@@ -36,6 +36,18 @@
         }
     },
     {
+        "mobileImage": "mobile/dictionaryapp.webp",
+        "name": "Dictionary App",
+        "fullimage": "/fullimages/dictionaryapp.webp",
+        "preview": "/fullimages/dictionaryapp.webp",
+        "text": "This is a dictionary app. Users can enter a word into the input field and get its definition. The user also gets the phonetic for the word and some examples of its usage. Some words may contain an audio file with the correct pronunciation that users can listen to. The site has two different color themes that the user is free to change.",
+        "technologies": ["HTML", "TS", "REACT", "SASS"],
+        "links": {
+            "website": "https://works.pikulinweb.ru/dictionary-app",
+            "github": "https://github.com/kanae367/dictionary-app"
+        }
+    },
+    {
         "mobileImage": "mobile/spacetourism.webp",
         "name": "Space Tourism",
         "fullimage": "/fullimages/spacetourism.webp",
