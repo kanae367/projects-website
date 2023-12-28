@@ -6,12 +6,24 @@ import BottomSlider from '../bottomSlider/BottomSlider';
 import BackgroundImage from '../backgroundImage/BackgroundImage';
 import Mobile from '../mobile/Mobile';
 import data from '../../data.json';
+import { preloadImage } from '../../preloadImage';
 
 const App = () => {
     const [currentSlide, setCurrentSlide] = useState(data[2]);
     const [currentSlideNumber, setCurrentSlideNumber] = useState(2);
     const [isChanging, setIsChanging] = useState(false);
     const isLargeScreen = useMediaQuery({query: '(min-width: 1280px)'});
+
+    useEffect(() => {
+        data.forEach(item => {
+            if(isLargeScreen){
+                preloadImage(item.fullimage);
+                preloadImage(item.fullimage.split('.').join('1.'));
+            }else{
+                preloadImage(item.mobileImage);
+            }
+        });
+    }, []);
 
     useEffect(() => {
         setIsChanging(true);
@@ -21,6 +33,7 @@ const App = () => {
 
             setIsChanging(false);
         }, isLargeScreen ? 500 : 150);
+
         return () => clearTimeout(timeout);
     }, [currentSlideNumber])
 
