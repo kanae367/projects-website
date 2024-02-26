@@ -13,15 +13,14 @@ const BackgroundImage = ({src, alt}: image) => {
     const isMobile = useMediaQuery({query: '(max-width: 1279px)'});
 
     useEffect(() => {
-        const timeout = setTimeout(() => {
+        const interval = setInterval(() => {
             !isMobile && setIsFirst(!isFirst);
-        }, 10000)
-
-        return () => clearTimeout(timeout);
-    }, [isFirst])
-
-    useEffect(() => {
-        setIsFirst(true);
+        }, 10000);
+        
+        return function(){
+            setIsFirst(true);
+            clearInterval(interval)
+        };
     }, [src])
 
     return(

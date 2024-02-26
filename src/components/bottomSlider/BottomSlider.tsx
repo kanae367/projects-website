@@ -57,9 +57,9 @@ const BottomSlider = ({setNumber, links}: {
                 keyboard={true}
                 loop={true}
                 loopAddBlankSlides={true}
+                slideToClickedSlide={true}
                 normalizeSlideIndex={true}
                 centeredSlides={true}
-                allowTouchMove={false}
                 className={style.wrapper}>
                 
                 {swiperSlides}
